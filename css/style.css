@@ -1,0 +1,150 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+	
+
+    
+    background-color: #0d204c;
+    font-family: "Times New Roman", Georgia, Serif;
+}
+
+.page {
+    margin-top: 3%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.formstyle {
+    display: flex;
+    flex-direction: column;
+border: 1px solid #a4a4a4;
+    width: 290px ;
+    height: 550px;
+    background-color: #272b57;
+    border-radius: 15px 15px 15px 15px;
+   
+    box-shadow: 0 0 45px 2px;
+}
+
+.formstyles {
+	margin-top: 7%;
+    display: flex;
+    flex-direction: column;
+border: 1px solid #a4a4a4;
+    width: 290px ;
+    height: 250px;
+    background-color: #272b57;
+    border-radius: 15px 15px 15px 15px;
+   
+    box-shadow: 0 0 45px 2px;
+}
+
+.formtable {
+	margin-left: 10px;
+    display: flex;
+    flex-direction: column;
+border: 1px solid #a4a4a4;
+    width: 600px ;
+    height: 550px;
+    background-color: #272b57;
+    border-radius: 15px 15px 15px 15px;
+   
+    box-shadow: 0 0 45px 2px;
+}
+
+
+input {
+    margin: 10px 15px ;
+    padding: 10px;
+    border: unset;
+    background-color: transparent;
+    border-radius: 45px 45px 45px 45px;
+    border: 2px solid #fff;
+    outline: none;
+    color: #fff;
+}
+
+::placeholder { 
+ color: #dcdcdc;
+ 
+}
+
+button {
+	margin: 5px 12px ;
+    padding: 10px ;
+    
+    border: 1px solid #3d3f3e;
+    cursor: pointer;
+    border-radius: 45px 45px 45px 45px;
+    background-color: #3636f2;
+    color: #fff;
+    font-size: 14px;
+    
+}
+
+
+
+.msg {
+	color: #fb0505;
+	margin-left: 45px;
+}
+
+.logo {
+	margin: 20px 70px;
+	display: flex;
+    flex-direction: column;
+    width: 120px ;
+    height: 60px;
+    
+}
+
+.logo img{
+	position: relative;
+	width: 100%;
+	height: 100%;
+}
+
+th, td {
+	padding: 10px;
+}
+
+th {
+	background: #dcdcdc;
+	color: #272b57;
+}
+
+td {
+	background: #b5b5b5; 
+}
+
+table {
+	margin: 10px;
+}
+
+table a {
+	
+	color: green;
+}
+
+.task a{
+	text-decoration: none;
+	color: #fff;
+}
+
+h3 {
+	color: #dcdcdc;
+	text-align: center;
+	font-family: "Times New Roman", Georgia, Serif;
+	margin-top: 10px;
+	margin-bottom: 10px;
+}
+
+
+
+
+
