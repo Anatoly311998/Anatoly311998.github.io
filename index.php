@@ -1,16 +1,16 @@
-<?php
-require_once 'function/Connect.php';
-?>
 
-
-<!doctype html>
-<html lang="en">
+<html>
 <head>
     <meta charset="UTF-8">
     <title>Приложение Todo-list</title>
     <link rel="stylesheet" href="css/style.css">
 </head>
 <body>
+
+<?php
+require_once 'function/Connect.php';
+?>
+
 
 <div class="page">
 
