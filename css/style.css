@@ -1,156 +1,150 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
 body {
-	margin:0;
-	font-family: Verdana;
-
-}
-
-#page {
-	margin: 0 auto ;
-	width: 100%;
-	height: 100%;
-	background-image: url(../image/fon.jpg);
-	background-repeat: no-repeat; 
-    background-attachment: fixed;
-    -webkit-background-size: cover;
-    -moz-background-size: cover;
-    -o-background-size: cover;
-    background-size: cover;
 	
+
+    
+    background-color: #0d204c;
+    font-family: "Times New Roman", Georgia, Serif;
 }
 
-.block {
-margin: 0 auto ;
-	width: 1365px;
-	height: 100%;	
+.page {
+    margin-top: 3%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
 
-.form{
-position: relative;
-width: 600px;
-height: 400px;
-background: #dcdcdc;
-margin-left: 375px;
-top: 100px;
-border: 2px solid #000;
-border-radius: 15px 15px 15px 15px;
-box-shadow: inset 0 0 20px;
-
+.formstyle {
+    display: flex;
+    flex-direction: column;
+border: 1px solid #a4a4a4;
+    width: 290px ;
+    height: 550px;
+    background-color: #272b57;
+    border-radius: 15px 15px 15px 15px;
+   
+    box-shadow: 0 0 45px 2px;
 }
 
-#search-form1 {
-	width: 250px;
-	height: 40px;
-	margin-left: 300px;
-	margin-top: 100px;
-	background: #dcdcdc;
-	border: 2px solid #000;
-	border-radius: 5px 5px 5px 5px;
-
+.formstyles {
+	margin-top: 7%;
+    display: flex;
+    flex-direction: column;
+border: 1px solid #a4a4a4;
+    width: 290px ;
+    height: 250px;
+    background-color: #272b57;
+    border-radius: 15px 15px 15px 15px;
+   
+    box-shadow: 0 0 45px 2px;
 }
 
-#search-form1:hover {
-background: #999ccc;
-	}
+.formtable {
+	margin-left: 10px;
+    display: flex;
+    flex-direction: column;
+border: 1px solid #a4a4a4;
+    width: 600px ;
+    height: 550px;
+    background-color: #272b57;
+    border-radius: 15px 15px 15px 15px;
+   
+    box-shadow: 0 0 45px 2px;
+}
 
-#search-form2 {
-width: 250px;
-	height: 40px;
-	margin-left: 300px;
-	margin-top: 10px;
-	background: #dcdcdc;
-	border: 2px solid #000;
-	border-radius: 5px 5px 5px 5px;
-	}
 
-	#search-form2:hover {
-background: #999ccc;
-	}
+input {
+    margin: 10px 15px ;
+    padding: 10px;
+    border: unset;
+    background-color: transparent;
+    border-radius: 45px 45px 45px 45px;
+    border: 2px solid #fff;
+    outline: none;
+    color: #fff;
+}
+
+::placeholder { 
+ color: #dcdcdc;
+ 
+}
 
 button {
-width: 200px;
-height: 40px;
-background: #000;
-margin-left: 200px;
-margin-top: 80px;
-color: #dcdcdc;
-font-size: 18px;
-font-weight: bold;
-
-}
-
-button:hover {
-color: #000;
-background: #999ccc;
-border: 1px solid #000;
-	}
-
-.textlogin{
-position: relative;
-top:-35px;
-margin-left: 100px;
-color: #000;
-font-size: 18px;
-}
-
-.textparol{
-position: relative;
-top:-35px;
-margin-left: 100px;
-color: #000;
-font-size: 18px;
-}
-
-.input{
-position: relative;
-font-size: 22px;
-color: #000;
-margin-left: 150px;
-top: 20px;
-}
-
-search {
-	font-size: 18px;
+	margin: 5px 12px ;
+    padding: 10px ;
+    
+    border: 1px solid #3d3f3e;
+    cursor: pointer;
+    border-radius: 45px 45px 45px 45px;
+    background-color: #3636f2;
+    color: #fff;
+    font-size: 14px;
+    
 }
 
 
 
+.msg {
+	color: #fb0505;
+	margin-left: 45px;
+}
+
+.logo {
+	margin: 20px 70px;
+	display: flex;
+    flex-direction: column;
+    width: 120px ;
+    height: 60px;
+    
+}
+
+.logo img{
+	position: relative;
+	width: 100%;
+	height: 100%;
+}
+
+th, td {
+	padding: 10px;
+}
+
+th {
+	background: #dcdcdc;
+	color: #272b57;
+}
+
+td {
+	background: #b5b5b5; 
+}
+
+table {
+	margin: 10px;
+}
+
+table a {
+	
+	color: green;
+}
+
+.task a{
+	text-decoration: none;
+	color: #fff;
+}
+
+h3 {
+	color: #dcdcdc;
+	text-align: center;
+	font-family: "Times New Roman", Georgia, Serif;
+	margin-top: 10px;
+	margin-bottom: 10px;
+}
 
 
 
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-<ul>
-	   					<li><a href=""><img src="images/à1.jpg" alt=""></a></li>
-
-	   					<li><a href=""><img src="images/à1.jpg" alt=""></a></li>
-
-
-	   					<li><a href=""><img src="images/à1.jpg" alt=""></a></li>
-
-	   					<li><a href=""><img src="images/à1.jpg" alt=""></a></li>
-
-	   					<li><a href=""><img src="images/à1.jpg" alt=""></a></li>
-
-	   					<li><a href=""><img src="images/à1.jpg" alt=""></a></li>
-
-	   					<li><a href=""><img src="images/à1.jpg" alt=""></a></li>
-
-	   					<li><a href=""><img src="images/à1.jpg" alt=""></a></li>
-
-
-	   				</ul>
