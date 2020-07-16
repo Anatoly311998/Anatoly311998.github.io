@@ -40,7 +40,7 @@ require_once 'function/Connect.php';
 
 
 
-        <p class="msg none"></p>
+        
 
 
        
